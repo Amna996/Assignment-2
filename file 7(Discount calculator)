@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	float shoppingamount;
+	float discount;
+	float finalamount;
+	printf("Enter shopping amount");
+	scanf("%f",&shoppingamount);
+	if(shoppingamount>5000)
+	{
+	discount= shoppingamount*0.02;
+	}
+	else if(shoppingamount>=3000 & shoppingamount<=5000) 
+	{
+		discount=shoppingamount*0.10;
+	}
+	else discount=0;
+	{
+	finalamount=shoppingamount-discount;
+	}
+	printf("shoppingamount %f",shoppingamount);
+	printf("discount%f",discount);
+	printf("finalamount%f",finalamount);
+	return 0;
+}

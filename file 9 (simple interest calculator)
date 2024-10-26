@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	float principle,rate, time,simple_interest;
+	printf("Enter the principle amount");
+	scanf("%f",&principle);
+	printf("Enter the rate interest");
+	scanf("%f",&rate);
+	printf("Enter the time duration");
+	scanf("%f",&time);
+	simple_interest=(principle*rate*time)/100;
+	printf("the simple interest is %f",simple_interest);
+	return 0;
+}
