@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	float num2,num8;
+	printf("Enter first number");
+	scanf("%f",&num2);
+	printf("Enter second number");
+	scanf("%f",&num8);
+	printf("addition:%d",2+8);
+	printf("subtraction:%d",2-8);
+	printf("multiplication:%d",2*8);
+	printf("division:%d",2/8);
+	
+	return 0;
+}
